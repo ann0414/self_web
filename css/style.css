@@ -3,6 +3,9 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
+.section-2{
+	margin: 20px;
+}
 
 .zone {
 	font-size: 2em;
@@ -20,8 +23,6 @@ body {
     justify-content: center;
 
 }
-
-
 .mainNav {
 	display: flex;
 	list-style: none;
@@ -39,16 +40,6 @@ a {
 	text-decoration: none;
 }
 
-/* COVER
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 50vh;
-} */
-
-
-/* PROJECT */
 .gridWrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -60,15 +51,13 @@ a {
 	height: 300px;
 }
 .box {
-	/* background-color: #444; */
 	padding: 50px;
 	margin: 20px;
 	transition: all 0.5s;
 }
-.box:hover {
+/* .box:hover {
 	transform: rotate(-7deg);
-}
-
+} */
 footer {
 	text-align: center;
 }
