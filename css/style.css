@@ -6,11 +6,18 @@ body {
 .section-2{
 	margin: 20px;
 }
+.map_title{
+	font-size: 25px;
+	font-weight: bold;
+	justify-content: center;
+}
+.content{
+font-size: 18px;
+}
 
 .zone {
 	font-size: 2em;
 	border-radius: 4px;
-	/* border: 1px solid #bbb; */
 }
 .title{
     color:#20691A ;
@@ -35,10 +42,6 @@ body {
 		padding: 0;
 	}
 }
-a {
-	color: #000;
-	text-decoration: none;
-}
 
 .gridWrapper {
 	display: grid;
@@ -55,9 +58,17 @@ a {
 	margin: 20px;
 	transition: all 0.5s;
 }
-/* .box:hover {
-	transform: rotate(-7deg);
-} */
+.btn{
+	background-color: #318500;
+	width: 100%;
+	font-size: 25px;
+	border: 0cm;
+}
+a{
+	font-size: 25px;
+	color: #FFFF;
+	text-decoration: none;
+}
 footer {
 	text-align: center;
 }
