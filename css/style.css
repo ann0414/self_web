@@ -3,50 +3,71 @@ body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
-img{
+
+img {
 	width: 1440px;
 	height: 400px;
 }
-.section-1{
-	width: 100%;
+
+
+.section-1 {
+	display: flex;
 }
-.section-2{
+
+.section-2 {
+	display: flex;
 	margin: 20px;
 }
-.map_title{
+
+.map_title {
 	font-size: 25px;
 	font-weight: bold;
 	justify-content: center;
 }
-.content{
-font-size: 18px;
+
+.content {
+	font-size: 18px;
 }
-a{
+
+a {
 	color: black;
 	text-decoration: none;
+}
+
+.box {
+	padding: 50px;
+	margin: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	border: blue 1px solid;
 }
 
 .zone {
 	font-size: 2em;
 	border-radius: 4px;
 }
-.title{
-    color:#20691A ;
-    display: flex;
-    justify-content: center;
+
+.title {
+	color: #20691A;
+	display: flex;
+	justify-content: center;
 }
-.sub_title{
-    color:#FF307B ;
-    display: flex;
-    justify-content: center;
+
+.sub_title {
+	color: #FF307B;
+	display: flex;
+	justify-content: center;
 
 }
+
 .mainNav {
 	display: flex;
 	list-style: none;
 	font-size: 0.7em;
 	margin: 0;
 }
+
 @media only screen and (max-width: 600px) {
 	.mainNav {
 		font-size: 0.5em;
@@ -57,29 +78,30 @@ a{
 .gridWrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-	gap: 2%;
+	gap: 15%;
 	padding: 2%;
+
 }
-.box > img {
+
+.box>img {
 	width: 300px;
 	height: 300px;
 }
-.box {
-	padding: 50px;
-	margin: 20px;
-	transition: all 0.5s;
-}
-.btn{
+
+
+.btn {
 	background-color: #318500;
 	width: 100%;
 	font-size: 25px;
 	border: 0cm;
 }
-.btn a{
+
+.btn a {
 	font-size: 25px;
 	color: #FFFF;
 	text-decoration: none;
 }
+
 footer {
 	text-align: center;
 }
