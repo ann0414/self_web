@@ -1,7 +1,7 @@
 body {
-	padding: 0;
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -15,8 +15,8 @@ a {
 }
 
 .zone {
-	font-size: 2em;
-	border-radius: 4px;
+    font-size: 2em;
+    border-radius: 4px;
 }
 
 
@@ -41,10 +41,10 @@ a {
 }
 
 .mainNav {
-	display: flex;
-	list-style: none;
-	font-size: 0.7em;
-	margin: 0;
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
 }
 
 .section_2 {
@@ -65,14 +65,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .box_img {
     width: 300px;
     height: 300px;
     cursor: pointer;
-	justify-content: center;
+    justify-content: center;
 
 }
 
@@ -97,9 +96,9 @@ a {
 }
 
 .btn a {
-	font-size: 25px;
-	color: #ffff;
-	text-decoration: none;
+    font-size: 25px;
+    color: #ffff;
+    text-decoration: none;
 }
 
 .content {
@@ -124,46 +123,12 @@ footer {
         height: 150px;
     }
 
-    .title {
-        color: #20691A;
-        display: flex;
-        justify-content: center;
-    }
-
-    .sub_title {
-        color: #FF307B;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .title_img {
-        display: flex;
-        width: 100%;
-        max-height: 300px;
-    }
-
-    .section_2 {
-        display: flex;
-        margin: 20px;
-        border: 1px solid blue;
-    }
-
     .gripwrapper {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 15%;
         padding: 2%;
         max-width: 750px;
-    }
-
-    .box {
-        width: 400px;
-        margin: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid black;
     }
 
     .box div:first-child {
@@ -187,6 +152,15 @@ footer {
         font-weight: bold;
     }
 
+    .zone {
+        font-size: 2em;
+        border-radius: 4px;
+    }
+
+    footer {
+        text-align: center;
+        margin: 50%;
+    }
 }
 
 @media (MAX-width: 350px) {
@@ -194,16 +168,9 @@ footer {
         height: 75px;
     }
 
-    .title_img {
-        display: flex;
-        width: 100%;
-        max-height: 300px;
-    }
-
     .section_2 {
         display: flex;
         margin: 20px;
-        border: 1px solid blue;
     }
 
     .gripwrapper {
@@ -213,16 +180,6 @@ footer {
         padding: 2%;
         max-width: 350px;
     }
-
-    .box {
-        width: 400px;
-        margin: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid black;
-    }
-
 
     .box div:first-child {
         margin-bottom: 10px;
@@ -239,5 +196,15 @@ footer {
     .map_title {
         font-size: 16px;
         font-weight: bold;
+    }
+
+    .zone {
+        font-size: 2em;
+        border-radius: 4px;
+    }
+
+    footer {
+        text-align: center;
+        margin: 75%;
     }
 }
