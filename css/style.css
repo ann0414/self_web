@@ -48,21 +48,21 @@ a {
 }
 
 .section_2 {
-    display: flex;
     margin: 20px;
 }
 
 .gripwrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 15%;
-    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 150px;
     margin: 20px;
     max-width: 1440px;
 }
 
 .box {
-    display: flex;
+    margin: 20px;
+    max-width: 300px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -112,99 +112,4 @@ a {
 
 footer {
     text-align: center;
-    margin: 20%;
-}
-
-
-@media (MAX-width: 750px) {
-    .section_1 {
-        margin: 20px;
-        background-image: url("../img/water5.jpg");
-        height: 150px;
-    }
-
-    .gripwrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 15%;
-        padding: 2%;
-        max-width: 750px;
-    }
-
-    .box div:first-child {
-        margin-bottom: 15px;
-    }
-
-    .btn {
-        background-color: #318500;
-        width: 100%;
-        font-size: 18px;
-        justify-content: space-between;
-        border: 0cm;
-    }
-
-    .content {
-        font-size: 16px;
-    }
-
-    .map_title {
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .zone {
-        font-size: 2em;
-        border-radius: 4px;
-    }
-
-    footer {
-        text-align: center;
-        margin: 50%;
-    }
-}
-
-@media (MAX-width: 350px) {
-    .section_1 {
-        height: 75px;
-    }
-
-    .section_2 {
-        display: flex;
-        margin: 20px;
-    }
-
-    .gripwrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 15%;
-        padding: 2%;
-        max-width: 350px;
-    }
-
-    .box div:first-child {
-        margin-bottom: 10px;
-    }
-
-    .btn {
-        font-size: 14px;
-    }
-
-    .content {
-        font-size: 12px;
-    }
-
-    .map_title {
-        font-size: 16px;
-        font-weight: bold;
-    }
-
-    .zone {
-        font-size: 2em;
-        border-radius: 4px;
-    }
-
-    footer {
-        text-align: center;
-        margin: 75%;
-    }
 }
